@@ -1,0 +1,119 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+} 
+
+body {
+    margin:20px ;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#imagenDeTitulo{
+    width: 40%;
+    position: relative;
+    left: 35%
+    
+}
+
+#prevButton{
+    position: absolute;
+    left: 5%;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-size: 20px;
+    cursor: pointer;
+        
+}
+#prevButton:hover{
+    color: white;
+    background-color: black ;
+
+}
+
+#nextButton{
+    position: absolute;
+    right: 5%;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#nextButton:hover{
+    color: white;
+    background-color: black ;
+
+}
+
+.titulo{
+  
+    border-radius: 25px;
+    margin: 0 auto;
+    position: relative;
+}
+.search{
+   
+    position:absolute;
+    bottom: 15px;
+    left: 5px;
+    
+
+}
+
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 18px;
+}
+
+.image-container {
+    display: flex;
+
+    
+
+}
+
+.image-container img {
+    width: 100%;
+}
+
+article{
+    padding: 10px;
+    box-shadow: 0px 0px 5px #000;
+
+}
+
+span{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bolder;
+    color: green;
+
+
+}
+
+
